@@ -2,6 +2,7 @@
   "name": "tiny-friend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ldnguyen15970.github.io/tiny-friends/",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.18",
     "@mui/icons-material": "^5.8.0",
@@ -22,6 +23,8 @@
     "yarn": "^1.22.18"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
