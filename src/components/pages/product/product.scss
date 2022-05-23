@@ -1,0 +1,73 @@
+.product {
+  .header {
+    .menu {
+      .product-menu {
+        color: #ff7c90;
+      }
+    }
+  }
+}
+.productcontainer {
+  display: flex;
+  margin-top: 60px;
+  .sibar {
+    width: 300px;
+    position: fixed;
+    padding: 50px 0 0 50px;
+
+ 
+    .sibar-item{
+      font-family: bungee;
+      font-size: 14px;
+      color: black;
+
+      &:not(:first-child):hover{
+        color: #ff7c90;
+      }
+
+      &:hover{
+        color: #ff7c90;
+      }
+    }
+    #nap-thuong , #nap-vom{
+      list-style: disc;
+      margin-left: 30px;
+      // display: block;
+    }
+  }
+  .product-content {
+    margin-left: 300px;
+    padding: 0 60px;
+    width: 100%;
+    border-left: 2px solid #ccc;
+  }
+}
+.product-title {
+  margin: 40px 0;
+  font-size: 20px;
+  height: auto;
+  font-family: Bungee;
+}
+.mockhoa-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 63px;
+  column-gap: 40px;
+  margin-bottom: 120px;
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    padding-left: 10px;
+    background-color: #ffc3cc;
+    position: absolute;
+    top: 20px;
+  }
+}

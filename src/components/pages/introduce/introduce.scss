@@ -1,0 +1,126 @@
+.introduce{
+    
+    .introduce-menu{
+        color: #FF7C90;
+    }
+    .widget{
+        background-color: white;
+        border-bottom: none;
+        .widget-left{
+            border-bottom: none;
+        }
+        .widget-right{
+            border-bottom: none;
+            .widget-list{
+                border-bottom: none;
+                background-color: #f7a4b0;
+                .widget-item{
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
+.introducecontainer{
+    margin-top: 60px;
+    .title{
+        color: #333 !important;
+        background-color: white !important;
+    }
+    background-color: #f7a4b0;
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 50px;
+    .search{
+        width: 232px;
+        position: absolute;
+        height: 30px;
+        background-color: #FFC3CC;
+        border:none;
+        right: 20px;
+        margin-left: 106px;
+    }
+    .premble{
+        display: flex;
+        .premble-left{
+            padding-left: 140px;
+            width: 50%;
+
+            p{
+                font-size: 3.5rem;
+                color: white;
+                font-family: Bungee;
+                line-height: 1.4;
+                padding: 50px 157px 0 0;
+            }
+            img{
+                width: 600px;
+                height: 431px;
+                border: 2px solid #333;
+                box-shadow: 11px 11px #969696;
+
+
+
+            }
+        }
+    }
+}
+.box-1{
+    width: 450px;
+    height: 480px !important;
+    .box-top-1{
+        height: 60px;
+        height: 60px;
+
+    }
+}
+.box-2{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 0 !important;
+    margin-top: 60px !important;
+    margin-left: 274px !important;
+    .box-top-2{
+        height: 60px;
+    }
+}
+
+
+.box{
+    margin-bottom: 50px;
+    background: #fff;
+    text-align: right;
+    margin-left: 150px;
+    margin-top: 135px;
+    border: 2px solid #333;
+    box-shadow: 11px 11px #969696;
+    .box-top{
+        background: #333;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+        .icon-box{
+            text-align: right;
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+    }
+    .box-bottom{
+        font-family: 'Cascadia Code', sans-serif;
+        height: 100%;
+        font-size: 18px;
+        padding: 20px;
+        padding-left: 50px;
+        padding-top: 50px;
+        text-align: left;
+        padding-bottom: 0;
+
+        p{
+            line-height: 32px;
+        }
+    }
+}
+

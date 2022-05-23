@@ -1,0 +1,86 @@
+.footer{
+    background: rgb(54, 53, 53);
+    width: 100%;
+    display: flex;
+    height: 260px;
+    position: relative;
+    .footer-item{
+        width: 25%;
+        text-align: center;
+
+        .footer-title{
+            color: #fff;
+            font-size: 19px;
+            line-height: 0 !important;
+            font-family: bungee;
+            margin-top: 50px;
+        }
+        img{
+            width: 100%;
+            height: 205px;
+        }
+        .content{
+            color: #FF7C90;
+            font-size: 29px;
+            position: absolute;
+            bottom: 20px;
+            font-family: bungee;
+            bottom: -12px;
+            left: 52px;
+            display: none;
+
+        }
+
+
+    }
+    .info{
+        text-align: left;
+        padding-left: 140px;
+        padding-top: 27px;
+        .title-info{
+            cursor: pointer;
+            font-size: 1.8rem;
+            color: #fff;
+            font-family: bungee;
+            margin-bottom: 20px;
+            &:hover{
+                color: #FF7C90;
+            }
+            
+        }
+        p{
+            cursor: pointer;
+            font-size: 1.8rem;
+            color: #fff;
+            margin-bottom: 10px;
+             &:hover{
+                color: #FF7C90;
+            }
+        }
+    }
+    .contact{
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+        justify-content: center;
+        padding-top: 50px;
+        svg{
+            color: white;
+        }
+        .intag-icon{
+            font-size: 4rem;
+            margin-right: 20px;
+
+            &:hover{
+                color: #FF7C90;
+            }
+        }
+        .fb-icon{
+            font-size: 3.5rem;
+
+            &:hover{
+                color: rgb(48, 48, 233);
+            }
+        }
+    }
+}

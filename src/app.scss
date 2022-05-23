@@ -1,0 +1,35 @@
+:root {
+    --main-font: Bungee;
+    --primary-color: #FF7C90;
+    --boder-color: #dbdbdb;
+    --header-height: 120px;
+    --navbar-height: 30px;
+    --font-text: 'Courier New', monospace;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: var(--primary-color);
+}
+
+.App{
+    color: #333;
+    min-width: 100%;
+    font-size: 1.6rem;
+}

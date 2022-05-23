@@ -1,0 +1,21 @@
+.info-member{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0 274px;
+    .info-item{
+
+       img{
+        width: 200px;
+        height: 200px;
+        border: 1px solid #333;
+        box-shadow: 10px 10px #969696;
+       }
+        p{
+            margin-top: 20px;
+            font-size: 14px;
+            font-family: Bungee;
+            text-align: center;
+        }       
+    }
+}
