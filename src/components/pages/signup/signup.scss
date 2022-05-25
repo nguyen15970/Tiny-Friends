@@ -116,3 +116,46 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width: 391px){
+    .signup{
+        display:block;
+        .signupcontainer{
+            display:block;
+            background-color: #F7DE24;
+            margin-top:40px;
+            padding-bottom:80px;
+            .form-signup{
+                display:none;
+            }
+            .form-right{
+                padding:0 20px;
+                h1{
+                    font-size:2.6rem;
+                    margin-bottom:30px;
+                }
+                input{
+                    width:100%;
+                }
+               .input{
+                   width:unset;
+                   .ho{
+                    width:120px ;
+                }
+               }
+
+               .checkbox{
+                   input{
+                       width:20px;
+                       height:20px;
+
+                   }
+               }
+            }
+            .check{
+                bottom:-45px;
+                top:unset;
+                left:20px;
+            }
+        }
+    }
+}

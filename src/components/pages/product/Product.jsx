@@ -5,7 +5,6 @@ import { listMockhoa } from "../../../fakeProducts";
 import "./product.scss";
 import Productitem from "../../productitem/Productitem";
 import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
 
 export const Product = ({productDetail}) => {
 

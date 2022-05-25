@@ -20,7 +20,7 @@ export const Cart = () => {
         Bạn không có sản phẩm nào
         <Link to='/products'><br/>Quay lại cửa hàng</Link>
       </div>
-      <div className={listCart.length === 0 ? 'cartcontainer-active' : ' cartcontainer'}>
+      <div className={listCart.length == 0 ? 'cartcontainer-active' : ' cartcontainer'}>
         <h1>GIỞ HÀNG</h1>
         <ul className="product-list">
           {listCart.map((list,index) => (

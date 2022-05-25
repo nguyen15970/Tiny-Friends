@@ -97,7 +97,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-tron-an'
+    slug:'/moc-khoa,-tron-an'
   },
   {
     id: 2,
@@ -106,7 +106,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-tron-lin'
+    slug:'/moc-khoa,-tron-lin'
 
   },
   {
@@ -116,7 +116,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-tron-chom'
+    slug:'/moc-khoa,-tron-chom'
 
   },
   {
@@ -126,7 +126,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-tron-don'
+    slug:'/moc-khoa,-tron-don'
 
   },
   {
@@ -136,7 +136,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-dai-an'
+    slug:'/moc-khoa,-dai-an'
 
   },
   {
@@ -146,7 +146,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-dai-lin'
+    slug:'/moc-khoa,-dai-lin'
 
   },
   {
@@ -156,7 +156,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-dai-don'
+    slug:'/moc-khoa,-dai-don'
 
   },
   {
@@ -166,7 +166,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 1,
     active:true,
-    slug:'/moc-khoa-dai-chom'
+    slug:'/moc-khoa,-dai-chom'
 
   },
   {
@@ -176,7 +176,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau-chom'
+    slug:'/ly-giu,-nhiet-loang-mau-chom'
   },
   {
     id: 10,
@@ -185,7 +185,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau-an'
+    slug:'/ly-giu,-nhiet-loang-mau-an'
   },
   {
     id: 11,
@@ -194,7 +194,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau-lin'
+    slug:'/ly-giu,-nhiet-loang-mau-lin'
   },
   {
     id: 12,
@@ -203,7 +203,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau-don'
+    slug:'/ly-giu,-nhiet-loang-mau-don'
   },
   {
     id: 13,
@@ -212,7 +212,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau-don-an'
+    slug:'/ly-giu,-nhiet-loang-mau-don-an'
   },
   {
     id: 14,
@@ -221,7 +221,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau-com-lin'
+    slug:'/ly-giu,-nhiet-loang-mau-com-lin'
 
   },
   {
@@ -231,7 +231,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau--an-chom'
+    slug:'/ly-giu,-nhiet-loang-mau--an-chom'
 
   },
   {
@@ -241,7 +241,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 2,
     active:true,
-    slug:'/ly-giu-nhiet-loang-mau-lin-an'
+    slug:'/ly-giu,-nhiet-loang-mau-lin-an'
 
   },
   {
@@ -251,7 +251,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 3,
     active:true,
-    slug:'/ly-giu-nhiet-don'
+    slug:'/ly-giu,-nhiet-don'
   },
   {
     id: 18,
@@ -260,7 +260,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 3,
     active:true,
-    slug:'/ly-giu-nhiet-chom'
+    slug:'/ly-giu,-nhiet-chom'
   },
   {
     id: 19,
@@ -269,7 +269,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 3,
     active:true,
-    slug:'/ly-giu-nhiet-an'
+    slug:'/ly-giu,-nhiet-an'
   },
   {
     id: 20,
@@ -278,7 +278,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 3,
     active:true,
-    slug:'/ly-loang-mau-lin'
+    slug:'/ly-loang,-mau-lin'
   },
   {
     id: 21,
@@ -287,7 +287,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-caro-chom'
+    slug:'/op-lung,-caro-chom'
   },
   {
     id: 22,
@@ -296,7 +296,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-caro-an'
+    slug:'/op-lung,-caro-an'
 
   },
   {
@@ -306,7 +306,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-caro-lin'
+    slug:'/op-lung,-caro-lin'
   },
   {
     id: 24,
@@ -315,7 +315,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-caro-don'
+    slug:'/op-lung,-caro-don'
   },
   {
     id: 25,
@@ -324,7 +324,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-tuc-gian-chom'
+    slug:'/op-lung,-tuc-gian-chom'
 
   },
   {
@@ -334,7 +334,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-tuc-gian-an'
+    slug:'/op-lung,-tuc-gian-an'
   },
   {
     id: 27,
@@ -343,7 +343,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-tuc-gian-lin'
+    slug:'/op-lung,-tuc-gian-lin'
     
   },
   {
@@ -353,7 +353,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 4,
     active:true,
-    slug:'/op-lung-tuc-gian-don'
+    slug:'/op-lung,-tuc-gian-don'
   },
   {
     id: 29,
@@ -362,7 +362,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 5,
     active:true,
-    slug:'/sticker-don'
+    slug:'/sticker-don,'
 
   },
   {
@@ -372,7 +372,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 5,
     active:true,
-    slug:'/sticker-lin'
+    slug:'/sticker-lin,'
   },
   {
     id: 31,
@@ -381,7 +381,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 5,
     active:true,
-    slug:'/sticker-an'
+    slug:'/sticker-an,'
   },
   {
     id: 32,
@@ -390,7 +390,7 @@ export const listMockhoa = [
     gia: "50000",
     category: 5,
     active:true,
-    slug:'/sticker-chom'
+    slug:'/sticker-chom,'
   },
   {
     id: 33,
@@ -425,3 +425,42 @@ export const listMockhoa = [
     active:true,
   },
 ];
+export const listMenu =[
+  {
+    id:1,
+    text:'trang chủ',
+    slug : '/',
+    active:true
+  },
+  {
+    id:2,
+    text:'giới thiệu',
+    slug:'/introduce',
+    active:false
+  },
+  {
+    id:3,
+    text:'quà lưu niệm',
+    slug:'/products',
+    active:false
+  },
+  {
+    id:4,
+    text:'đăng ký',
+    slug:'/signup',
+    active:false
+
+  },
+  {
+    id:5,
+    text:'đăng nhập',
+    slug:'/login',
+    active:false
+  },
+  {
+    id:6,
+    text:'giỏ hàng',
+    slug:'/cart',
+    active:false
+  },
+]

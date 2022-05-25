@@ -11,9 +11,6 @@ const Cartitem = ({name,price,img,id,number , totalData}) => {
     
     
     var total = 0
-    // for(let i= 0 ; i < listCart.length ; i++ ) {
-    //     listCart[i].id === id ? listCart[i].sumTotal = price * count :<Fragment/>
-    // }
    
     for(let i = 0 ; i < listCart.length ; i++ ) {
       listCart[i].id === id ? listCart[i].sumTotal = price * count :<Fragment/>
@@ -40,7 +37,7 @@ const Cartitem = ({name,price,img,id,number , totalData}) => {
               <div className="product-list-right">
                 <div className="product-detail">
                   <div className="product-detail-title">{name}</div>
-                  <div className="product-detail-content">Ốp lưng chất liệu dẻo , chống dơ , họa tiết caroDành cho các dòng Iphone</div>
+                  <div className="product-detail-content">Ốp lưng chất liệu dẻo , chống dơ , họa tiết caro Dành cho các dòng Iphone</div>
                 </div>
                 <div className="classsify">
                   <p className='classify-title'>Phân loại :</p>
@@ -51,7 +48,7 @@ const Cartitem = ({name,price,img,id,number , totalData}) => {
                   <div className="count-number">{count}</div>
                   <div className="flus" onClick={() => setcount(count + 1)}>+</div>
                 </div>
-                <div className="cart-price">{price * count}</div>
+                <div className="cart-price">Giá : {price * count} Đ</div>
                 <div className="delete" onClick={handleDelete}>X</div>
               </div>
             </li>

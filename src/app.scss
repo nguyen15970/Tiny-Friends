@@ -28,8 +28,39 @@ a:hover{
     color: var(--primary-color);
 }
 
+
+
 .App{
     color: #333;
-    min-width: 100%;
+    width: 100%;
     font-size: 1.6rem;
 }
+@media screen and (max-width: 391px) {
+    .App{
+        overflow-x: hidden;
+        .cart{
+
+            .alert{
+                font-size: 2rem !important;
+            }
+        }
+    }
+}
+@media screen and (max-width: 391px){
+    .footer{
+        padding-top: 50px;
+        display: block !important;
+        .footer-item{
+            width: 100% !important;
+            .footer-title{
+                margin-top: 0 !important;
+            }
+        }
+        .info{
+            display: none;
+        }
+        .contact{
+            display: none !important;
+        }
+    }
+} 

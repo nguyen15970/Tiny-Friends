@@ -3,7 +3,6 @@ import './detail.scss'
 import Header from '../../header/Header'
 import Footer from '../../footer/Footer'
 import { Link } from 'react-router-dom'
-import Button from '../../button/Button'
 import Info from '../../info/Info'
 import { listProductMore } from '../../../fakeProducts'
 import { useDispatch } from 'react-redux'
@@ -17,14 +16,12 @@ export const Detail = ({productDetail}) => {
   const [count, setCount] = useState(1);
   const Dispatch = useDispatch()
   var listCart  = useSelector(productCart)
-  var countItem = 0;
 
   
   productDetail.number=count
   document.title = productDetail.tenSanpham
 
 
- var countitem=0
   const AddtocartOnClick = () =>{
 
     // if(!listCart.length){
@@ -49,7 +46,6 @@ export const Detail = ({productDetail}) => {
       alert('DÃ THÊM VÀO GIỎ HÀNG') 
     }
   }
-  window.scrollTo(0, 0)
 
   return (
     <div className='detail'>
@@ -64,7 +60,7 @@ export const Detail = ({productDetail}) => {
                 <div className="product-describe">Chất liệu nhựa , nắp vòm , có ống hút đi kèm</div>
                 <div className="product-price">{productDetail.gia} Đ </div>
                 <div className="count">
-                  <div className={count == 1 ? "minus-active minus":"minus"} onClick={() => count==1 ? setCount(1) :setCount(count -1)}>-</div>
+                  <div className={count === 1 ? "minus-active minus":"minus"} onClick={() => count===1 ? setCount(1) :setCount(count -1)}>-</div>
                   <div className="count-number">{count}</div>
                   <div className="flus"onClick={() => setCount(count+1)}>+</div>
                 </div>

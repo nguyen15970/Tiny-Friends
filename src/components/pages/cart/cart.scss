@@ -152,3 +152,68 @@
         }
     }
 }
+
+@media screen and (max-width: 391px){
+    .cartcontainer{
+        margin: 120px 20px 80px 20px;
+        width: 350px;
+        h1{
+            font-size: 2rem;
+        }
+
+        li{
+            padding-left: 10px;
+            .classsify{
+                display: flex;
+                margin-top: 10px;
+            }
+            .product-list-right{
+                margin-left: 30px;
+                display: block;
+                position: relative;
+
+                .count{
+                    .flus, .minus{
+                        width: 35px;
+                        height: 35px;
+                    }
+                    .count-number{
+                        height: 35px;
+                    }
+                }
+                .cart-price{
+                    margin-top: 10px;
+                    width: 200px;
+                    font-size: 1.6rem;
+                }
+                .delete{
+                    width: 35px;
+                    height: 35px;
+                    position: absolute;
+                    bottom: -10px;
+                    right: 20px;
+                }
+            }
+            
+        }
+        .payment{
+            padding: 10px;
+            p{
+                font-size: 2.1rem;
+            }
+            .payment-price{
+                display: block;
+                margin-top: 15px;
+
+                p{
+                    font-size: 1.5rem;
+                }
+                button{
+                    width: 100px;
+                }
+            }
+        }
+
+    }
+    
+}

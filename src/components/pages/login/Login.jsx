@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom'
 import Button from '../../button/Button'
 
 export const Login = () => {
+
+  document.title="Đăng nhập"
+  window.scrollTo(0,0)
   return (
     <div className ='login'>
       <Header/>
@@ -24,8 +27,8 @@ export const Login = () => {
             <input type="text"  placeholder='Email hoặc tên đăng nhập'/>
           </div>
           <div className="password">
-            <p>Password</p>
-            <input type="password"  placeholder='Password'/>
+            <p>Mặt khẩu</p>
+            <input type="password"  placeholder='Mặt khẩu'/>
           </div>
           <Button text='ĐĂNG NHẬP' w='120px' h='40'/>
         </div>

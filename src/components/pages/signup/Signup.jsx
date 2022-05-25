@@ -8,6 +8,8 @@ import  './signup.scss'
 
 
 export const Signup = () => {
+  document.title="Đăng ký"
+  window.scrollTo(0,0)
   return (
     <div className ='signup'>
     <Header/>

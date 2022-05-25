@@ -2,7 +2,7 @@
   "name": "tiny-friend",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://nguyen15970.github.io/tiny-friends/",
+  "homepage": "https://nguyen15970.github.io/tiny-friends/",
   
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.18",
