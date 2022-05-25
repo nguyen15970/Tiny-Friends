@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tiny-friends/static/css/main.2522c1b6.css",
-    "main.js": "/tiny-friends/static/js/main.8f39c590.js",
+    "main.css": "/tiny-friends/static/css/main.454f7293.css",
+    "main.js": "/tiny-friends/static/js/main.612d16b9.js",
     "static/media/TINYFRIEND.gif": "/tiny-friends/static/media/TINYFRIEND.60222e40b1323aa6971c.gif",
     "static/media/lin.gif": "/tiny-friends/static/media/lin.f410eb0882f17f04ff8b.gif",
     "static/media/AN.gif": "/tiny-friends/static/media/AN.17f9c21a68d7b7441f33.gif",
@@ -55,11 +55,11 @@
     "static/media/đoan.JPG": "/tiny-friends/static/media/đoan.a34cfcbd6838bba22353.JPG",
     "static/media/shoppingcart.png": "/tiny-friends/static/media/shoppingcart.c8a33f60634a7e7f370a.png",
     "index.html": "/tiny-friends/index.html",
-    "main.2522c1b6.css.map": "/tiny-friends/static/css/main.2522c1b6.css.map",
-    "main.8f39c590.js.map": "/tiny-friends/static/js/main.8f39c590.js.map"
+    "main.454f7293.css.map": "/tiny-friends/static/css/main.454f7293.css.map",
+    "main.612d16b9.js.map": "/tiny-friends/static/js/main.612d16b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2522c1b6.css",
-    "static/js/main.8f39c590.js"
+    "static/css/main.454f7293.css",
+    "static/js/main.612d16b9.js"
   ]
 }
