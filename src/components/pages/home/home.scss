@@ -215,3 +215,121 @@
         
     }
 }
+@media screen and (max-width: 391px){
+    .home{
+        
+        
+        .homecontainer{
+            margin-top: 80px;
+
+            .slider{
+                img{
+                    height: 250px;
+                }
+
+                .slider-content{
+                    display: none;
+                }
+            }
+            .widget{
+                padding: 20px;
+                padding-bottom: 0;
+                margin-bottom: 40px;
+
+
+                .widget-left{
+                    box-shadow: 7px 0px #888;
+                    position: relative;
+
+                    &::before{
+                        content: "";
+                        width: 7px;
+                        height: 11px;
+                        background-color: #888;
+                        position: absolute;
+                        bottom: -11px;
+                    right: -8px;;
+                    }
+                }
+                .widget-right{
+                    box-shadow: 7px 10px #888;
+                }
+            }
+            .title{
+                font-size: 1.7rem;
+            }
+            .mockhoa{
+                border: 1px solid #888;
+                display: block;
+                margin-top: 0;
+                .oplung-left{
+                    width: 100%;
+                    border-bottom:  1px solid #888;
+                }
+                .oplung-right{
+                    width: 100%;
+                }
+            }
+            .oplung{
+          
+                .oplung-left{
+                    padding-bottom: 15px;
+                    .text{
+                        padding: 5px 10px 10px 10px !important;
+                        margin: 0;
+
+                        .oplung-left-title{
+                            font-size: 1.6rem;
+                        }
+                        .oplung-left-content{
+                            font-size: 1.6rem;
+                        }
+                        .price{
+                            font-size: 1.6rem;
+                            margin-bottom: 0;
+                        }
+                        a{
+                            button{
+                                width: 110px !important; 
+                                height: 30px !important;
+                                line-height: 8px;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+            .lynhua-list{
+                display: block;
+
+                .lynhua-item:first-child,.lynhua-item:nth-child(2){
+                    display: none;
+                }
+                .lynhua-item{
+                   width: 100%;
+                   height: 485px !important;
+                }
+            }
+            .cauchuyenvechungtoi{
+                height: unset;
+                display: block;
+                padding: 20px 20px;
+                img{
+                    width: 100%;
+                    position: unset;
+                    margin-top: 20px;
+                    height: 250px;
+                    box-shadow: 10px 10px #888;
+                }
+                .about{
+                    width: 100%;
+                    padding: 0;
+                    .about-title{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

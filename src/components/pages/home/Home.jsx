@@ -95,7 +95,7 @@ export const Home = () => {
           </li>
         </ul>
         <Title title="CỬA HÀNG LƯU NIỆM" />
-        <div className="oplung ">
+        <div className="oplung mockhoa ">
           <div className="oplung-left">
             <div className="text mockhoa-text">
               <div className="oplung-left-title">MÓC KHÓA</div>

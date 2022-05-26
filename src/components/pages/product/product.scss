@@ -15,21 +15,21 @@
     position: fixed;
     padding: 50px 0 0 50px;
 
- 
-    .sibar-item{
+    .sibar-item {
       font-family: bungee;
       font-size: 14px;
       color: black;
 
-      &:not(:first-child):hover{
+      &:not(:first-child):hover {
         color: #ff7c90;
       }
 
-      &:hover{
+      &:hover {
         color: #ff7c90;
       }
     }
-    #nap-thuong , #nap-vom{
+    #nap-thuong,
+    #nap-vom {
       list-style: disc;
       margin-left: 30px;
       // display: block;
@@ -62,50 +62,48 @@
   justify-content: flex-end;
   position: relative;
   input {
-    height: 30px;
-    width: 200px;
+    height: 35px;
+    width: 300px;
     border: none;
     padding-left: 10px;
     background-color: #ffc3cc;
     position: absolute;
-    top: 20px;
+    top: 40px;
   }
 }
 
-@media screen and (max-width: 391px){
-  .sibar{
+@media screen and (max-width: 391px) {
+  .sibar {
     display: none;
   }
 
-  .product-content{
+  .product-content {
     margin-left: 0 !important;
-    padding: 30px 20px 0 20px  !important;
+    padding: 30px 20px 0 20px !important;
   }
-  .filter{
-    input{
+  .filter {
+    input {
       width: 100%;
       height: 35px;
     }
   }
-  .mockhoa{
+  .mockhoa {
     margin-top: 75px;
   }
-  .mockhoa-list{
-    grid-template-columns: repeat(2 , 1fr ) !important;
+  .mockhoa-list {
+    grid-template-columns: repeat(2, 1fr) !important;
     column-gap: 22px;
     margin-bottom: 50px !important;
-    .product-item{
-      img{
+    .product-item {
+      img {
         height: 190px;
       }
-      .name{
+      .name {
         font-size: 1.3rem;
       }
     }
   }
-  .product-title{
+  .product-title {
     margin-bottom: 20px !important;
   }
-  
-
-} 
+}
