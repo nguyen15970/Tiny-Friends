@@ -152,10 +152,9 @@
   }
 }
 
-@media screen and (max-width: 391px) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
   .cartcontainer {
-    margin: 120px 20px 80px 20px;
-    width: 350px;
+    padding: 120px 20px 80px 20px;
     h1 {
       font-size: 2rem;
     }

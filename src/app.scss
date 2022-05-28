@@ -46,7 +46,10 @@ a:hover{
         }
     }
 }
-@media screen and (max-width: 391px){
+@media screen and (min-width: 360px) and (max-width: 767px){
+    .App{
+        overflow-x: hidden;
+    }
     .footer{
         padding-top: 50px;
         display: block !important;

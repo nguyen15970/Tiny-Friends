@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route index path="/tiny-friends/" element={<Home/>} />
+          <Route index path="/tiny-friends" element={<Home/>} />
           <Route path="/products" element={<Product productDetail={setproductDetail}/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<Signup/>} />

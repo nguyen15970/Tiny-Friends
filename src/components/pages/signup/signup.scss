@@ -116,7 +116,7 @@
         font-size: 14px;
     }
 }
-@media screen and (max-width: 391px){
+@media screen and (min-width: 360px) and (max-width: 767px){
     .signup{
         display:block;
         .signupcontainer{
@@ -124,7 +124,7 @@
             background-color: #F7DE24;
             margin-top:40px;
             padding-bottom:80px;
-            .form-signup{
+            .form-signup{   
                 display:none;
             }
             .form-right{

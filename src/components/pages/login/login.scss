@@ -70,7 +70,7 @@
     margin-top: 70px;
 }
 
-@media screen and (max-width: 391px){
+@media screen and (min-width: 360px) and (max-width: 767px){
    .login{
     .logincontainer{
         padding:40px 20px 80px 20px;

@@ -21,6 +21,7 @@ export const Cart = () => {
         <Link to='/products'><br/>Quay lại cửa hàng</Link>
       </div>
       <div className={listCart.length == 0 ? 'cartcontainer-active' : ' cartcontainer'}>
+        <div>
         <h1>GIỞ HÀNG</h1>
         <ul className="product-list">
           {listCart.map((list,index) => (
@@ -40,6 +41,7 @@ export const Cart = () => {
             <p>{total} Đ</p>
             <button className="button">Mua ngay</button>
           </div>
+        </div>
         </div>
       </div>
       <Footer />
