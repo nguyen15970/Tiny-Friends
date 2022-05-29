@@ -105,7 +105,7 @@
     }
   }
 }
-@media screen and (min-width: 360px) and (max-width:768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   .detail {
     .detailcontainer {
       padding-left: 20px;
@@ -144,6 +144,16 @@
         grid-template-columns: repeat(2, 1fr);
         row-gap: 40px;
       }
+    }
+  }
+}
+@media screen and (min-width: 601px) and( max-width:768px) {
+  .product-iitem {
+    display: flex !important;
+
+    img {
+      width: 55% !important;
+      margin-right: 20px !important;
     }
   }
 }

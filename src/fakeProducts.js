@@ -429,7 +429,7 @@ export const listMenu =[
   {
     id:1,
     text:'trang chủ',
-    slug : '/',
+    slug : '/tiny-friends',
     active:true
   },
   {

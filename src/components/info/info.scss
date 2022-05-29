@@ -19,7 +19,7 @@
         }       
     }
 }
-@media screen and (max-width: 391px){
+@media screen and (min-width: 360px) and (max-width: 767px) {
     .info-member{
         grid-template-columns: repeat(2,1fr);
         row-gap: 40px;
